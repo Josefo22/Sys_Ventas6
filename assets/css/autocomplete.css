@@ -1,0 +1,51 @@
+/* Estilos para autocompletado */
+.ui-autocomplete {
+    max-height: 300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    z-index: 9999 !important;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.ui-autocomplete .ui-menu-item div {
+    padding: 8px 10px;
+    border-bottom: 1px solid #f0f0f0;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.ui-autocomplete .ui-menu-item:last-child div {
+    border-bottom: none;
+}
+
+.ui-autocomplete .ui-menu-item div:hover,
+.ui-autocomplete .ui-menu-item div.ui-state-active {
+    background-color: #f8f9fa;
+    color: #2c3e50;
+}
+
+.ui-autocomplete .ui-menu-item div strong {
+    color: #0056b3;
+}
+
+.ui-autocomplete .ui-menu-item div small {
+    display: block;
+    color: #6c757d;
+    font-size: 0.85em;
+    margin-top: 3px;
+}
+
+/* Destacar campos de búsqueda */
+.search-input {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    transition: all 0.3s ease;
+}
+
+.search-input:focus {
+    background-color: #fff;
+    border-color: #4e73df;
+    box-shadow: 0 0 0 0.2rem rgba(78, 115, 223, 0.25);
+} 
