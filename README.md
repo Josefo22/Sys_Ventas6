@@ -34,7 +34,7 @@ SysVentas es un sistema de gestión de ventas e inventario desarrollado en PHP, 
 
 1. **Clonar o descargar el repositorio**:
    ```
-   git clone https://github.com/usuario/sysventas.git
+   git clone https://github.com/usuario/sysventas6.git
    ```
    o descargar y descomprimir el archivo ZIP.
 
@@ -94,4 +94,4 @@ Este proyecto está bajo la Licencia MIT - consulta el archivo LICENSE para más
 
 ## Contacto y soporte
 
-Para soporte técnico, contactar a: [correo@ejemplo.com] 
+Para soporte técnico, contactar a: [Josefovelez22@gmail.com] 
